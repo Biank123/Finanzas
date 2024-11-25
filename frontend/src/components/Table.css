@@ -1,0 +1,90 @@
+
+.table-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 100%;
+  background-color: #f3f1f1;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.table-container h2 {
+ 
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+
+table {
+
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+
+th,
+td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  font-size: 1rem;
+}
+
+
+th {
+  background-color: #05951f;
+  color: white;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #e1e1e1;
+}
+
+td:nth-child(5) {
+  text-align: right;
+  color: #28a745;
+}
+
+
+@media (max-width: 768px) {
+
+  th,
+  td {
+    font-size: 0.9rem;
+    padding: 8px;
+  }
+
+  .table-container {
+    margin: 10px;
+    padding: 10px;
+  }
+}
+
+.delete-button {
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 16px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+}
+
+.delete-button:hover {
+  background-color: darkred;
+}

@@ -1,0 +1,43 @@
+
+/* Contenedor principal del dashboard */
+.dashboard {
+ width: 100%;
+  background-color: #cbcbcb;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  
+}
+
+/* Título del dashboard */
+.dashboard h1 {
+  font-size: 2rem;
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Contenedor para el gráfico y la tabla con grid */
+.chart-container2 {
+  display: grid;
+  grid-template-columns: 2fr 2fr; 
+  width: auto;
+}
+
+.chart-container2 .chart2 {
+  max-width: 100vw;
+  width: 80%;
+  height: auto;
+}
+
+/* Media query para pantallas más pequeñas */
+@media (max-width: 768px) {
+  .chart-containerr {
+    grid-template-columns: 1fr;  /* Una sola columna en pantallas pequeñas */
+    gap: 10px;
+  }
+
+  .chart-containerr .chart1,
+  .chart-containerr .chart2,
+  .table-containerr {
+    width: 100%;  /* Asegurar que los gráficos y la tabla ocupen el 100% en pantallas pequeñas */
+  }
+}

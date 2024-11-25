@@ -1,0 +1,55 @@
+/* Estilos para el contenedor del gráfico */
+.chart-container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  max-width: 80%;  
+  margin: 0 auto;
+  background-color: #ffffff;
+  height: auto;
+ 
+}
+
+.chart-container2 canvas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+  max-width: 160%;  
+  height: 200px;
+  
+}
+
+/* Título del gráfico */
+.chart-title2 {
+  width: 100%;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+  
+}
+
+/* Estilos para el reporte */
+.reporte2 {
+  display: flex;
+  flex-direction: column;
+  
+  margin-left: 5vw;
+  margin-top: 40px;
+  font-size: 18px;
+  text-align: center; 
+  background-color: #efeeee;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 200%;
+}
+
+/* Estilo para los elementos dentro del reporte */
+.reporte-item2 {
+  margin: 5px 0;
+}

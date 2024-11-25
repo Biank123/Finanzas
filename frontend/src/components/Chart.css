@@ -1,0 +1,71 @@
+.chart-containerr {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: #f9f9f9; /* Color de fondo suave */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 80%;
+}
+
+/* Título del gráfico */
+.chart-titlee {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Estilos para el contenedor del gráfico y el reporte */
+.chart-and-report {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  gap: 20px; /* Espaciado entre el gráfico y el reporte */
+}
+
+/* Estilo para el gráfico de pie */
+.chart1 {
+  flex: 1;
+  max-width: 100%; /* Limita el ancho del gráfico */
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+/* Estilos para el reporte */
+.reporte {
+  flex: 1;
+  max-width: 400px; /* Limita el ancho del reporte */
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos del reporte */
+.reporte h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.reporte p {
+  font-size: 1rem;
+  color: #555;
+  margin: 8px 0;
+}
+
+/* Estilo adicional para el gráfico de pie (chart.js) */
+.chart-containerr .chart1 canvas {
+  max-width: 100%; 
+  width: 100%; 
+  height: auto;
+  
+}

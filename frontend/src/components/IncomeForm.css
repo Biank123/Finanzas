@@ -1,0 +1,75 @@
+/* Contenedor principal del formulario */
+.income-form-container {
+    width: 100%;
+    padding: 20px;
+    border-radius: 8px;
+    margin-left: -20px;
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+    background-color: #f9f9f9;
+  }
+  
+  .income-form-container h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 1.5rem;
+    margin-top: -40px;
+  }
+  
+ 
+  .income-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .income-form label {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  
+  .income-form input,
+  .income-form select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-top: 5px;
+  }
+  
+ 
+  .income-form input:hover,
+  .income-form select:hover,
+  .income-form input:focus,
+  .income-form select:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+ 
+  .income-form button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+ 
+  .income-form button:hover {
+    background-color: #0056b3;
+  }
+ 
+  @media (max-width: 480px) {
+    .income-form-container {
+      padding: 15px;
+    }
+  }
+  

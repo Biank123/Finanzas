@@ -1,0 +1,36 @@
+/* Navbar.css */
+.navbar {
+    background-color: #4CAF50; /* Fondo verde */
+    padding: 15px 20px; /* Espaciado en la barra de navegación */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil para dar profundidad */
+  }
+  
+  .navbar .menu {
+    display: flex;
+    justify-content: center; /* Centra los elementos del menú */
+    align-items: center;
+    margin: 0;
+  }
+  
+  .navbar .menu li {
+    margin: 0 15px; /* Espaciado entre los elementos del menú */
+  }
+  
+  .navbar .menu a {
+    text-decoration: none; /* Elimina subrayado en los enlaces */
+    color: white; /* Color de texto blanco */
+    font-size: 1.1rem; /* Tamaño de fuente */
+    font-weight: bold;
+    padding: 10px 15px; /* Espaciado interno */
+    transition: background-color 0.3s ease; /* Transición suave en el color de fondo */
+  }
+  
+  .navbar .menu a:hover {
+    background-color: #45a049; /* Color de fondo al pasar el mouse */
+    border-radius: 5px; /* Bordes redondeados en el hover */
+  }
+  
+  .navbar .menu a.active {
+    background-color: #333; /* Fondo oscuro para el enlace activo */
+    border-radius: 5px;
+  }

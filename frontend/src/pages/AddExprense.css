@@ -1,0 +1,85 @@
+/* Estilos generales para la página AddExpense */
+.add-expense-container {
+  margin: 40px auto;
+  padding: 20px;
+  max-width: 900px;
+  border-radius: 8px;
+ 
+}
+
+/* Título principal */
+.add-expense-container h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/* Estilos para el formulario */
+.form-container {
+  background-color: #fbfafa;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para los campos del formulario */
+.form-container label {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+  display: block;
+  color: #333;
+}
+
+/* Estilos para los inputs del formulario */
+.form-container input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+/* Estilo para el botón del formulario */
+.form-container button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Cambio de color al pasar el mouse sobre el botón */
+.form-container button:hover {
+  background-color: #0056b3;
+}
+
+/* Estilos para el contenedor de la página */
+.add-expense-container {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+/* Responsividad para pantallas más pequeñas */
+@media (max-width: 768px) {
+  .add-expense-container {
+    padding: 15px;
+    margin: 10px;
+  }
+
+  .form-container {
+    padding: 15px;
+  }
+
+  .form-container button {
+    padding: 10px;
+  }
+}

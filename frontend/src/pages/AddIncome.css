@@ -1,0 +1,23 @@
+/* Contenedor principal */
+.add-income-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+    border-radius: 8px;
+    
+  }
+  
+ 
+  .add-income-container h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .income-form-container {
+    margin-top: 20px;
+  }
+  
